@@ -69,7 +69,7 @@ app.get("/patient_dashboard", (req, res) => {
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb+srv://dennisakshaya:Dennisakshaya2004@cluster0.vqvvfvr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("enter your url")
   .then(() => {
     console.log("✅ MongoDB connected");
     app.listen(PORT, () => {
